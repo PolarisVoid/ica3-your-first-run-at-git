@@ -3,6 +3,13 @@
 <head>
   <title>Pivot Calendar</title>
 </head>
+<style>
+    table, tr, th {
+        width: 25%;
+        border: 2px solid;
+        border-color:burlywood;
+    }
+</style>
 <body>
   <div class="navbar">
     <ul>
@@ -12,22 +19,20 @@
     </ul>
   </div>
   <table>
-    <tr>
+    <thead>
       <th>Created By</th>
-      <td>Dallin King</td>
-    </tr>
-    <tr>
       <th>Date Created</th>
-      <td>September 7th, 2024</td>
-    </tr>
-    <tr>
       <th>Version</th>
-      <td>1.0</td>
-    </tr>
-    <tr>
       <th>Purpose</th>
-      <td>To help students better manage their time.</td>
-    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dallin King</td>
+            <td>September 7th, 2024</td>
+            <td>1.0</td>
+            <td>To help students better manage their time.</td>
+        </tr>
+    </tbody>
   </table>
 </body>
 </html>
